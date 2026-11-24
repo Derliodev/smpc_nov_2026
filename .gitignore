@@ -1,0 +1,33 @@
+# Entornos locales de Python
+.venv/
+venv/
+
+# Cachés y archivos compilados
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.py[cod]
+
+# Cobertura y paquetes generados
+.coverage
+.coverage.*
+htmlcov/
+/build/
+/dist/
+*.egg-info/
+
+# Archivos del sistema y del editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos temporales y evidencia generada (se conservan localmente)
+/tmp/
+/evidencias/
+/output/
+
+# docs/plan_pruebas.csv y docs/matriz_trazabilidad.csv se versionan:
+# tests/test_preparacion.py los necesita para comprobar la trazabilidad.

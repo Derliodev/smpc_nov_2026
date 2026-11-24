@@ -1,0 +1,6 @@
+# Dependencias de pruebas fijadas a las versiones instaladas en la etapa 1.
+pytest==9.2.0
+iniconfig==2.3.1
+packaging==26.4
+pluggy==1.7.0
+Pygments==2.21.0
